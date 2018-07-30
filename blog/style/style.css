@@ -1,0 +1,5 @@
+/* Look for an anchor tag inside of the form (Cancel)
+ */
+form a {
+  margin-left: 5px;
+}

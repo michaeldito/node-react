@@ -1,0 +1,20 @@
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 20px 0px;
+}
+
+svg {
+  height: 150px;
+}
+
+/* Find the first td in each row, and also find the first td
+ * and it's child div (the google map).
+ */
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
